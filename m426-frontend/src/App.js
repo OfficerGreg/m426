@@ -54,14 +54,14 @@ const App = () => {
             Agiles
           </Link>
           <div className="navbar-nav mr-auto">
-            <li className="nav-item">
+            <li className="nav-item-home">
               <Link to={"/home"} className="nav-link">
                 Home
               </Link>
             </li>
 
             {showAdminBoard && (
-              <li className="nav-item">
+              <li className="nav-item-admin">
                 <Link to={"/admin"} className="nav-link">
                   Admin Board
                 </Link>
@@ -69,7 +69,7 @@ const App = () => {
             )}
 
             {currentUser && (
-              <li className="nav-item">
+              <li className="nav-item-user">
                 <Link to={"/user"} className="nav-link">
                   User
                 </Link>
@@ -84,7 +84,7 @@ const App = () => {
                   {currentUser.username}
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item-logout">
                 <a href="/login" className="nav-link" onClick={logOut}>
                   LogOut
                 </a>

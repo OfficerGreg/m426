@@ -58,6 +58,16 @@ const Home = () => {
               <td>bob</td>
               <td>nicht cool :(</td>
             </tr>
+            <tr>
+              <td>test2</td>
+              <td>bob</td>
+              <td>nicht cool :(</td>
+            </tr>
+            <tr>
+              <td>test2</td>
+              <td>bob</td>
+              <td>nicht cool :(</td>
+            </tr>
           </table>
         </div>
       </div>
