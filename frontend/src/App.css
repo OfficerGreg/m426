@@ -230,6 +230,7 @@ label {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 400ms;
+  font-size: 20px;
 
 
 }
@@ -256,6 +257,7 @@ label {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 400ms;
+  font-size: 20px;
 
 }
 
@@ -272,6 +274,7 @@ label {
 /*Navbar Logout*/
 
 .nav-item-logout {
+  margin-right: 100px;
   background:
     linear-gradient(to right, rgba(100, 200, 200, 0.036), rgba(100, 200, 200, 0)),
     linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
@@ -279,6 +282,7 @@ label {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 400ms;
+  font-size: 20px;
 
 }
 
@@ -302,6 +306,7 @@ label {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 400ms;
+  font-size: 20px;
 
 }
 
@@ -317,6 +322,7 @@ label {
 /*Navbar Admin*/
 
 .nav-item-admin {
+  margin-left: 50px;
   background:
     linear-gradient(to right, rgba(100, 200, 200, 0.036), rgba(100, 200, 200, 0)),
     linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
@@ -324,6 +330,7 @@ label {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 400ms;
+  font-size: 20px;
 
 }
 
@@ -339,6 +346,7 @@ label {
 /*Navbar User*/
 
 .nav-item-user {
+  margin-left: 50px;
   background:
     linear-gradient(to right, rgba(100, 200, 200, 0.036), rgba(100, 200, 200, 0)),
     linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
@@ -346,6 +354,7 @@ label {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 400ms;
+  font-size: 20px;
 
 }
 
@@ -354,6 +363,32 @@ label {
   background-size: 0 0.1em, 100% 0.1em;
 
 }
+
+
+
+
+/*Navbar Profile*/
+
+.nav-item-profile {
+  margin-right: 50px;
+
+  background:
+    linear-gradient(to right, rgba(100, 200, 200, 0.036), rgba(100, 200, 200, 0)),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  font-size: 20px;
+
+}
+
+.nav-item-profile:hover, 
+.nav-item-profile:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+
+}
+
 
 
 

@@ -12,6 +12,7 @@ import Home from "./components/Home";
 import Profile from "./components/Profile";
 import BoardUser from "./components/BoardUser";
 import BoardAdmin from "./components/BoardAdmin";
+import PageNotFound from "./components/PageNotFound";
 
 import { logout } from "./slices/auth";
 
@@ -79,7 +80,7 @@ const App = () => {
 
           {currentUser ? (
             <div className="navbar-nav ml-auto">
-              <li className="nav-item">
+              <li className="nav-item-profile">
                 <Link to={"/profile"} className="nav-link">
                   {currentUser.username}
                 </Link>
@@ -116,6 +117,7 @@ const App = () => {
             <Route path="/profile" element={<Profile />} />
             <Route path="/user" element={<BoardUser />} />
             <Route path="/admin" element={<BoardAdmin />} />
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
         </div>
       </div>
