@@ -1,0 +1,161 @@
+/* Background */
+
+.App {
+  height: 100vh;
+  background: linear-gradient(134deg, #ffa000, #ff0000, #0600ff);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 21s ease infinite;
+  -moz-animation: AnimationName 21s ease infinite;
+  animation: AnimationName 21s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:26% 0%}
+  50%{background-position:75% 100%}
+  100%{background-position:26% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:26% 0%}
+  50%{background-position:75% 100%}
+  100%{background-position:26% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:26% 0%}
+  50%{background-position:75% 100%}
+  100%{background-position:26% 0%}
+}
+
+
+
+
+/*Home Page  */
+
+.jumbotron{
+  margin-top: 100px ;
+  text-align: center;
+  display: flex;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.496);
+  background-color: rgb(218, 218, 218);
+}
+
+.projekte_table{
+  margin-top: 50px;
+  border-collapse:separate;
+  border:solid black 1px;
+  border-radius:6px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);  
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.496);
+}
+
+td, th {
+  border-left:solid black 1px;
+  border-top:solid black 1px;
+  background-color: rgb(197, 197, 197);  
+}
+
+th {
+  background-color: rgb(133, 133, 133);
+  border-top: none;
+}
+
+td:first-child, th:first-child {
+   border-left: none;
+}
+
+
+
+
+/*Login / Register Page*/
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.login-form,
+.signup-form {
+  max-width: 450px;
+  margin: auto;
+}
+
+.form-control{
+  background-color: #f3f3f3;
+}
+
+.form-control:hover{
+  background-color: #ffffff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.274);
+}
+
+.card {
+  background-color: #d6d6d6;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 20px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+
+/*Navbar*/
+
+.navbar{
+  background-color: black;
+}
+
+.nav-item-register{
+  transition: 500ms;
+  margin-right: 100px;
+  margin-left: 100px;
+  
+
+}
+
+
+.nav-item-register:hover{
+  transition: 500ms;
+  border-radius: 10px;
+  border-color: #ff0000;
+  border-style: solid;
+  border-width: 1px;
+
+
+}
+
+.nav-item-login{
+  transition: 500ms;
+  margin-left: 100px;
+  
+
+}
+
+
+.nav-item-login:hover{
+  transition: 500ms;
+  margin-left: 100px;
+  background-color: rgb(123, 123, 123);
+  border-radius: 10px;
+
+}
