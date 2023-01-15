@@ -1,0 +1,83 @@
+.login-container {
+    max-width: 420px;
+    margin: 0 auto;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.ant-layout {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: auto;
+    flex: auto;
+    height: 100vh;
+    background: linear-gradient(134deg, #ffa000, #ff0000, #0600ff);
+    background-size: 600% 600%;
+  
+    -webkit-animation: AnimationName 21s ease infinite;
+    -moz-animation: AnimationName 21s ease infinite;
+    animation: AnimationName 21s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 26% 0%
+    }
+  
+    50% {
+      background-position: 75% 100%
+    }
+  
+    100% {
+      background-position: 26% 0%
+    }
+  }
+  
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 26% 0%
+    }
+  
+    50% {
+      background-position: 75% 100%
+    }
+  
+    100% {
+      background-position: 26% 0%
+    }
+  }
+  
+  @keyframes AnimationName {
+    0% {
+      background-position: 26% 0%
+    }
+  
+    50% {
+      background-position: 75% 100%
+    }
+  
+    100% {
+      background-position: 26% 0%
+    }
+  }
+
+.ant-btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #000000;
+}
+.ant-btn-primary:hover {
+    color: rgb(255, 251, 251);
+    background-color: #000000;
+    border-color: #000000;
+}
+
+
+
+  
