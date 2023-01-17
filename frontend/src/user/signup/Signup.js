@@ -61,13 +61,13 @@ class Signup extends Component {
         signup(signupRequest)
         .then(response => {
             notification.success({
-                message: 'Polling App',
+                message: 'Agiles Team',
                 description: "Thank you! You're successfully registered. Please Login to continue!",
             });          
             this.props.history.push("/login");
         }).catch(error => {
             notification.error({
-                message: 'Polling App',
+                message: 'Agiles Team',
                 description: error.message || 'Sorry! Something went wrong. Please try again!'
             });
         });

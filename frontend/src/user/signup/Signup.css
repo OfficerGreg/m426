@@ -27,3 +27,15 @@
     border-color: #000000;
 }
 
+.app-content {
+    margin-top: 50px;
+}
+
+.signup-container{
+    background-color: rgb(144, 144, 144);
+    border-radius: 15px;
+    padding: 15px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}

@@ -8,3 +8,15 @@
     text-align: center;
     margin-bottom: 40px;    
 }
+
+.poll-content {
+    margin-bottom: 30px;
+    padding: 20px 15px 20px 15px;
+    letter-spacing: .01em;
+    -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+    background-color: rgb(144, 144, 144);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+}

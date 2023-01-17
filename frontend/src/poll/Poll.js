@@ -119,7 +119,7 @@ function CompletedOrVotedPollChoice(props) {
         <div className="cv-poll-choice">
             <span className="cv-poll-choice-details">
                 <span className="cv-choice-percentage">
-                    {Math.round(props.percentVote * 100) / 100}%
+                    Member:
                 </span>            
                 <span className="cv-choice-text">
                     {props.choice.text}
@@ -131,9 +131,6 @@ function CompletedOrVotedPollChoice(props) {
                         type="check-circle-o"
                     /> ): null
                 }    
-            </span>
-            <span className={props.isWinner ? 'cv-choice-percent-chart winner': 'cv-choice-percent-chart'} 
-                style={{width: props.percentVote + '%' }}>
             </span>
         </div>
     );

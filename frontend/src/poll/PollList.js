@@ -25,6 +25,7 @@ class PollList extends Component {
         this.handleLoadMore = this.handleLoadMore.bind(this);
     }
 
+    
     loadPollList(page = 0, size = POLL_LIST_SIZE) {
         let promise;
         if(this.props.username) {
@@ -140,6 +141,7 @@ class PollList extends Component {
             }
         });
     }
+    
 
     render() {
         const pollViews = [];

@@ -1,9 +1,12 @@
 .user-details {
     margin-bottom: 44px;
-    padding-top: 40px;
     padding-bottom: 20px;
     margin: 0 auto;
     text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(144, 144, 144);
+    
 }
 
 .user-avatar-circle {
@@ -65,4 +68,7 @@
         font-size: 24px;
     }    
 }
+
+
+
 

@@ -3,6 +3,11 @@
     margin: 0 auto;
     margin: 0 auto;
     margin-top: 40px;
+    background-color: rgb(144, 144, 144);
+    padding: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #000000;
 }
 
 .login-form-button {
@@ -10,20 +15,20 @@
 }
 
 .ant-layout {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex: auto;
-    flex: auto;
-    height: 100vh;
-    background: linear-gradient(134deg, #ffa000, #ff0000, #0600ff);
-    background-size: 600% 600%;
-  
-    -webkit-animation: AnimationName 21s ease infinite;
-    -moz-animation: AnimationName 21s ease infinite;
-    animation: AnimationName 21s ease infinite;
-  }
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex: auto;
+  flex: auto;
+  height: 100vh;
+  background: linear-gradient(134deg, #ffa000, #ff0000, #0600ff);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 21s ease infinite;
+  -moz-animation: AnimationName 21s ease infinite;
+  animation: AnimationName 21s ease infinite;
+}
   
   @-webkit-keyframes AnimationName {
     0% {
